@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">教师解锁</string>
+    <string name="btn_create_class">创建班级</string>
+    <string name="btn_my_class">我的班级</string>
+    <string name="login_username_hint">教工号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login">登录</string>
+</resources>

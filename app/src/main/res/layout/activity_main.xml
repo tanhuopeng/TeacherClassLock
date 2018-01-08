@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/widget_toolbar" />
+    <Button
+        android:id="@+id/mhomeactivity_btn_create_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textSize="@dimen/text_buttn_size"
+        android:text="@string/btn_create_class"
+        />
+
+    <Button
+        android:id="@+id/mhomeactivity_btn_my_class"
+        android:layout_below="@id/mhomeactivity_btn_create_class"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textSize="@dimen/text_buttn_size"
+        android:text="@string/btn_my_class"
+        />
+
+
+</RelativeLayout>

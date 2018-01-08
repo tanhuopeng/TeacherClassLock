@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80c3db</color>
+    <color name="colorPrimaryDark">#45b9de</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="black">#000000</color>
+    <color name="tab_gray">#ff999999</color>
+    <color name="tab_green">#ff45c01a</color>
+    <color name="widgets_general_tab_pressed">#0db35e</color>
+    <color name="widgets_general_tab_normal">#aaa</color>
+    <color name="black_33">#333333</color>
+    <color name="half_transparent_black">#BB000000</color>
+    <color name="light_black">#141414</color>
+    <color name="line_and_outline_grey">#d9d9d9</color>
+    <color name="week_list_background">#bff6f4</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="green_color">#24de23</color>
+    <color name="write_color">#ffffff</color>
+    <color name="gray_color">#EDEDED</color>
+    <color name="term_choose">#11cd6e</color>
+    <color name="app_main_color">#2bc1ab</color>
+    <color name="transparent_red_color">#00FF6347</color>
+    <color name="m_gray_b_color">#c1c7d1</color>     //rgba(193, 199, 209, 1)
+    <!-- 图表颜色 -->
+    <color name="chart_blue_color">#33B5E5</color>
+    <color name="chart_green_color">#99CC00</color>
+    <color name="chart_gray_color">#999999</color>
+    <color name="chart_orange_color">#FFBB33</color>
+    <color name="chart_red_color">#FF4444</color>
+    <color name="chart_violet_color">#AA66CC</color>
+    <color name="transparent">#00000000</color>
+</resources>

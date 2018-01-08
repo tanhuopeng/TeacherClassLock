@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 解决首次启动白屏 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 菜单样式 -->
+        <item name="actionOverflowMenuStyle">@style/overflowMenuStyle</item>
+    </style>
+
+    <style name="ToolBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/PopWindowStyle</item>
+    </style>
+
+    <style name="PopWindowStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+    </style>
+
+    <style name="overflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:popupBackground">#80c3db</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">5dp</item>
+    </style>
+
+    <style name="FlowLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+        //选项item文字默认值
+        <item name="item_textColor">#666666</item>
+
+        //选项item背景色
+        <item name="item_backgroundColor">#ffffff</item>
+
+        //选中后选项item的文字颜色
+        <item name="item_selectedTextColor">#ffffff</item>
+
+        //选中后选项item的背景颜色
+        <item name="item_selectedBackgroundColor">#7289ff</item>
+
+        //选项item的圆角大小
+        <item name="item_radius">3dp</item>
+
+        //选项item的边缘颜色
+        <item name="item_strokeColor">#939393</item>
+
+        //选项item选中后边缘颜色
+        <item name="item_selectedStrokeColor">#939393</item>
+
+        //选项item边缘的大小
+        <item name="item_strokeWidth">1px</item>
+
+        //水平方向，选项item的间距
+        <item name="item_horizontalSpacing">10dp</item>
+
+        //选项item内部padding
+        <item name="item_horizontalPadding">10dp</item>
+
+        ////竖直方向，选项item的间距
+        <item name="item_verticalPadding">5dp</item>
+
+        //选项item的大小，如果设置wrap_content则包裹它的内容，可设置固定值如80，单位dp
+        <item name="item_width">50</item>
+        <item name="item_height">40</item>
+
+
+        //限制item文字显示长度
+        <item name="item_maxEms">5</item>
+
+        //是否可以多选
+        <item name="item_multiChooseable">true</item>
+    </style>
+
+    <!--自定义用于去除背景-->
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+</resources>
